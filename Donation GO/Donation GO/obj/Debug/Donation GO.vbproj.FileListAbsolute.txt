@@ -1,0 +1,22 @@
+E:\Kuliah\Semester 3\Proyek 1\Proyek 1 Donation GO\Donation GO\Donation GO\bin\Debug\Donation GO.exe.config
+E:\Kuliah\Semester 3\Proyek 1\Proyek 1 Donation GO\Donation GO\Donation GO\obj\Debug\Donation_GO.Resources.resources
+E:\Kuliah\Semester 3\Proyek 1\Proyek 1 Donation GO\Donation GO\Donation GO\obj\Debug\Donation_GO.Pendaftaran_Donasi.resources
+E:\Kuliah\Semester 3\Proyek 1\Proyek 1 Donation GO\Donation GO\Donation GO\obj\Debug\Donation GO.vbproj.GenerateResource.Cache
+E:\Kuliah\Semester 3\Proyek 1\Proyek 1 Donation GO\Donation GO\Donation GO\bin\Debug\Donation GO.exe
+E:\Kuliah\Semester 3\Proyek 1\Proyek 1 Donation GO\Donation GO\Donation GO\bin\Debug\Donation GO.pdb
+E:\Kuliah\Semester 3\Proyek 1\Proyek 1 Donation GO\Donation GO\Donation GO\bin\Debug\Donation GO.xml
+E:\Kuliah\Semester 3\Proyek 1\Proyek 1 Donation GO\Donation GO\Donation GO\obj\Debug\Donation GO.exe
+E:\Kuliah\Semester 3\Proyek 1\Proyek 1 Donation GO\Donation GO\Donation GO\obj\Debug\Donation GO.xml
+E:\Kuliah\Semester 3\Proyek 1\Proyek 1 Donation GO\Donation GO\Donation GO\obj\Debug\Donation GO.pdb
+E:\Kuliah\Semester 3\Proyek 1\Proyek 1 Donation GO\Donation GO\Donation GO\obj\Debug\Donation_GO.Pendaftaran_Donatur.resources
+E:\Kuliah\Semester 3\Proyek 1\Proyek 1 Donation GO\Donation GO\Donation GO\obj\Debug\Donation_GO.Pendaftaran_Admin.resources
+E:\Kuliah\Semester 3\Proyek 1\Proyek 1 Donation GO\Donation GO\Donation GO\obj\Debug\Donation_GO.Penerimaan.resources
+E:\Kuliah\Semester 3\Proyek 1\Proyek 1 Donation GO\Donation GO\Donation GO\obj\Debug\Donation_GO.Pengeluaran.resources
+E:\Kuliah\Semester 3\Proyek 1\Proyek 1 Donation GO\Donation GO\Donation GO\obj\Debug\Donation_GO.LP_Penerimaan.resources
+E:\Kuliah\Semester 3\Proyek 1\Proyek 1 Donation GO\Donation GO\Donation GO\obj\Debug\Donation_GO.PD_Admin.resources
+E:\Kuliah\Semester 3\Proyek 1\Proyek 1 Donation GO\Donation GO\Donation GO\obj\Debug\Donation_GO.PD_Donatur.resources
+E:\Kuliah\Semester 3\Proyek 1\Proyek 1 Donation GO\Donation GO\Donation GO\obj\Debug\Donation_GO.LP_Pengeluaran.resources
+E:\Kuliah\Semester 3\Proyek 1\Proyek 1 Donation GO\Donation GO\Donation GO\obj\Debug\Donation GO.vbprojResolveAssemblyReference.cache
+E:\Kuliah\Semester 3\Proyek 1\Proyek 1 Donation GO\Donation GO\Donation GO\obj\Debug\Donation_GO.PD_Donasi.resources
+E:\Kuliah\Semester 3\Proyek 1\Proyek 1 Donation GO\Donation GO\Donation GO\obj\Debug\Donation_GO.Donation_GO.resources
+E:\Kuliah\Semester 3\Proyek 1\Proyek 1 Donation GO\Donation GO\Donation GO\obj\Debug\Donation_GO.Login.resources

@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C11EA83D-08C1-4069-82CC-C8C6717B911B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Donation_GO.My.MyApplication</StartupObject>
+    <RootNamespace>Donation_GO</RootNamespace>
+    <AssemblyName>Donation GO</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Donation GO.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Donation GO.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CR_BA.Designer.vb">
+      <DependentUpon>CR_BA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CR_BA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Donation GO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Donation GO.Designer.vb">
+      <DependentUpon>Donation GO.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LP Penerimaan.Designer.vb">
+      <DependentUpon>LP Penerimaan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LP Penerimaan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PD Admin.Designer.vb">
+      <DependentUpon>PD Admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PD Admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PD Donasi.Designer.vb">
+      <DependentUpon>PD Donasi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PD Donasi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PD Donatur.Designer.vb">
+      <DependentUpon>PD Donatur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PD Donatur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pendaftaran Admin.Designer.vb">
+      <DependentUpon>Pendaftaran Admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pendaftaran Admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pendaftaran Donasi.Designer.vb">
+      <DependentUpon>Pendaftaran Donasi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pendaftaran Donasi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pendaftaran Donatur.Designer.vb">
+      <DependentUpon>Pendaftaran Donatur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pendaftaran Donatur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Penerimaan.Designer.vb">
+      <DependentUpon>Penerimaan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Penerimaan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pengeluaran.Designer.vb">
+      <DependentUpon>Pengeluaran.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pengeluaran.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LP Pengeluaran.Designer.vb">
+      <DependentUpon>LP Pengeluaran.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LP Pengeluaran.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Donation GO.resx">
+      <DependentUpon>Donation GO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LP Penerimaan.resx">
+      <DependentUpon>LP Penerimaan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD Admin.resx">
+      <DependentUpon>PD Admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD Donasi.resx">
+      <DependentUpon>PD Donasi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD Donatur.resx">
+      <DependentUpon>PD Donatur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pendaftaran Admin.resx">
+      <DependentUpon>Pendaftaran Admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pendaftaran Donasi.resx">
+      <DependentUpon>Pendaftaran Donasi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pendaftaran Donatur.resx">
+      <DependentUpon>Pendaftaran Donatur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Penerimaan.resx">
+      <DependentUpon>Penerimaan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pengeluaran.resx">
+      <DependentUpon>Pengeluaran.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LP Pengeluaran.resx">
+      <DependentUpon>LP Pengeluaran.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
